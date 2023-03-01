@@ -1,0 +1,86 @@
+/*ul*/
+
+ul {
+    height: 20vh;
+    margin-top: 5vh;
+    border-top: 1px solid black;
+    overflow-y: scroll;
+    visibility: hidden;
+}
+
+ul li {
+    list-style-type: none;
+}
+
+.counters {
+    color: rgb(95, 93, 93);
+}
+
+.lap-is-not-clicked {
+    font-size: 4rem;
+    margin-top: 10vh;
+    transition: all 1s;
+}
+
+.lap-is-clicked {
+    font-size: 3.5rem;
+    margin-top: 5vh;
+    transition: all 1s;
+}
+
+
+/*lap counter*/
+
+.lap-counters {
+    font-size: 2rem;
+    visibility: hidden;
+}
+
+
+/*start buttom*/
+
+.startBtn {
+    font-size: 2rem;
+    border-top: 1px solid black;
+    cursor: pointer;
+    margin-top: 3vh;
+}
+
+.stop-lap {
+    position: relative;
+    border-top: 1px solid black;
+    margin-top: 3vh;
+}
+
+.stop-lap span {
+    width: 100%;
+    cursor: pointer;
+}
+
+.lapReset {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.stopResume {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.show span {
+    width: 50%;
+    transition: width 1s;
+}
+
+
+/*utilities*/
+
+.red-text {
+    color: red;
+}
+
+.green-text {
+    color: chartreuse;
+}
